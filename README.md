@@ -22,9 +22,9 @@
   - 각 웹툰 링크를 하나씩 열어 다음 정보 수집:
     - 줄거리: .EpisodeListInfo__summary--Jd1WG
     - 썸네일 이미지 URL: .Poster__image--d9XTI
-    - 연령등급: '15세 이용가', '전체 이용가' 등 텍스트 정보
+    - 연령등급: '15세 이용가', '전체 이용가' 등 텍스트 정보  em.ContentMetaInfo__info_item--utGrf > span.ContentMetaInfo__dot--uCVnt
 
-  - 성인 웹툰인 경우 로그인 페이지(nid.naver.com)로 리디렉션되므로 해당 조건을 감지하여 "성인"으로 처리
+  - 성인 웹툰인 경우 로그인 페이지(nid.naver.com/nidlogin.login)로 리디렉션되므로 해당 조건을 감지하여 "성인"으로 처리
 
 
 ### 3. CSV 파일 저장
